@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorge Company Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gorge Company Database</h1>
+    <label for="headerField">Filter By:</label>
+    <select id="headerField"></select>
+    <br>
+    <br>
+    <input type="text" id="searchInput" placeholder="Enter search term...">
+    <button onclick="search()">Search</button>
+    <button onclick="resetSearch()">Reset</button>
+    <br>
+    <br>
+    <br>
+    <table id="searchResultsTable">
+        <!-- Header row will be inserted here dynamically -->
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
